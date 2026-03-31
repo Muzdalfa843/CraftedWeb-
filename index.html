@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzdalfa Haram - Premium Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+
+        <div class="profile">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="profile">
+            <h2>Muzdalfa Haram</h2>
+        </div>
+
+        <div class="section">
+            <h3>Contact</h3>
+            <p><b>Phone Number:</b> 0318 7558075</p>
+            <p><b>Email:</b> hamaasali888@gmail.com</p>
+            <p><b>City:</b> Gujrat, Pakistan</p>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <p>HTML</p>
+            <div class="bar"><span data-width="85%"></span></div>
+
+            <p>CSS</p>
+            <div class="bar"><span data-width="80%"></span></div>
+
+            <p>Problem Solving</p>
+            <div class="bar"><span data-width="75%"></span></div>
+
+            <p>Programming Basics</p>
+            <div class="bar"><span data-width="70%"></span></div>
+
+            <p>Quick Learning</p>
+            <div class="bar"><span data-width="85%"></span></div>
+        </div>
+
+        <div class="section">
+            <h3>Interests</h3>
+            <p>💻 Coding</p>
+            <p>📚 Learning</p>
+            <p>🎨 Designing</p>
+            <p>🎮 Gaming</p>
+            <p>📝 Blogging</p>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <div class="section">
+            <h3>Summary</h3>
+            <p>
+                Motivated student currently learning web development.
+                Passionate about building modern websites and improving programming skills.
+                Focused on continuous learning and growth in the tech field.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Experience</h3>
+            <p><b>Learning Phase (2024 - Present)</b></p>
+            <p>
+                Currently learning and implementing web development concepts including HTML and CSS.
+                Building small projects and improving problem-solving skills step by step.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <p><b>BS Computer Science (In Progress)</b></p>
+            <p>Regular Student</p>
+
+            <p><b>Intermediate</b></p>
+            <p>Government Marghzar College for Women</p>
+
+            <p><b>Matriculation</b></p>
+            <p>The Right School</p>
+        </div>
+
+        <div class="section">
+            <h3>Languages</h3>
+            <p>English</p>
+            <div class="bar"><span data-width="85%"></span></div>
+
+            <p>Urdu</p>
+            <div class="bar"><span data-width="100%"></span></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    // Animate skill bars
+    const bars = document.querySelectorAll('.bar span');
+    bars.forEach(bar => {
+        const width = bar.getAttribute('data-width');
+        bar.style.width = '0';
+        setTimeout(() => {
+            bar.style.transition = 'width 1.5s ease-in-out';
+            bar.style.width = width;
+        }, 300);
+    });
+</script>
+
+</body>
+</html>
