@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #ffffff; /* Full white background */
-    color: #000000;
+    color: #333;
 }
 
 /* CONTAINER */
@@ -12,16 +12,16 @@ body {
     width: 900px;
     max-width: 95%;
     margin: 40px auto;
-    background-color: #111;
+    background-color: #f9f9f9;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 /* LEFT SIDE */
 .left {
     width: 35%;
-    background-color: #111;
+    background-color: #f1f1f1;
     padding: 25px 20px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 3px solid gold;
+    border: 3px solid #b8860b;
     object-fit: cover;
     margin-bottom: 15px;
     transition: transform 0.5s;
@@ -45,7 +45,7 @@ body {
 /* PROFILE NAME */
 .profile h2 {
     margin: 0;
-    color: gold;
+    color: #b8860b;
     text-align: center;
     font-size: 22px;
     letter-spacing: 1px;
@@ -64,7 +64,7 @@ body {
 }
 
 .section h3 {
-    color: gold;
+    color: #b8860b;
     border-bottom: 2px solid gold;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -74,12 +74,12 @@ body {
 /* INFO TEXT */
 .section p {
     margin: 5px 0;
-    color: #ccc;
+    color: #444444;
 }
 
 /* SKILL BARS */
 .bar {
-    background: #222;
+    background: #e0e0e0;
     height: 8px;
     border-radius: 5px;
     margin: 8px 0 15px;
@@ -88,7 +88,7 @@ body {
 .bar span {
     display: block;
     height: 8px;
-    background: gold;
+    background: #b8860b;
     border-radius: 5px;
     width: 0; /* animated with JS */
 }
@@ -99,6 +99,7 @@ body {
     padding: 25px 30px;
     display: flex;
     flex-direction: column;
+    background:#ffffff;
 }
 
 /* INTERESTS ICONS */
